@@ -1,0 +1,151 @@
+body {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: -0.015em;
+
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.container {
+  width: 1440px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  outline: 2px solid tomato;
+}
+
+/* Header */
+.page-header {
+  background-color: rgba(210, 210, 210, 0.81);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-right: 70px;
+
+  font-family: Comfortaa, cursive;
+  font-size: 28px;
+  line-height: 1.14;
+
+  color: #000000;
+}
+
+.logo:hover,
+.logo:focus {
+  color: #18a0fb;
+}
+
+.logo-img {
+}
+
+.syte-nav {
+  display: flex;
+  gap: 40px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  margin-right: auto;
+}
+
+.syte-nav .link {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+
+  color: #18a0fb;
+}
+
+.syte-nav .link:hover,
+.syte-nav .link:focus {
+  color: #000000;
+}
+
+.auth-nav {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  padding: 11px 42px;
+  min-width: 130px;
+
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  /* Зробили прозрачну рамку */
+  border: 1px solid transparent;
+  border-radius: 6px;
+}
+
+.btn-width {
+  color: #18a0fb;
+  background-color: #ffffff;
+  border-color: #18a0fb;
+}
+.btn-blue {
+  padding: 11px 34px;
+
+  color: #ffffff;
+  background-color: #18a0fb;
+}
+
+/* Section  1*/
+.hero {
+  margin-bottom: 40px;
+
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 1.43;
+  text-align: center;
+
+  color: #000000;
+}
+
+.section-text {
+  font-size: 48px;
+  line-height: 1.5;
+
+  color: #000000;
+}
+
+.text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #000000;
+}
