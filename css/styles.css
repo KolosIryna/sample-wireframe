@@ -96,6 +96,7 @@ img {
 .auth-nav {
   display: flex;
   gap: 12px;
+  align-items: center;
 }
 
 .btn {
@@ -156,6 +157,16 @@ img {
   color: #000000;
 }
 
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.item-link {
+  width: calc((100% - 24px) / 2);
+}
+
 .title {
   margin-bottom: 24px;
 
@@ -180,10 +191,62 @@ img {
   padding-bottom: 80px;
 }
 
-.work-list > .item:nth-child(2n) {
+.work-list > .items:nth-child(2n) {
   background-color: #f5f5f5;
 }
 
+.work-link {
+  display: flex;
+  align-items: center;
+}
+
+.contant {
+  margin-left: 40px;
+}
+
+.contant-bgr {
+  margin-right: 40px;
+}
+
+/* Section 4  */
+.text-title {
+  display: flex;
+  justify-content: center;
+}
+
+.text-client {
+  font-size: 36px;
+  line-height: 1.39;
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.client-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 900px;
+  gap: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Section 5 */
+.do {
+  display: flex;
+  justify-content: center;
+}
+
+.text-do {
+  width: 860px;
+  font-size: 36px;
+  line-height: 1.39;
+
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* ///////////////////////////////////////////////// */
 /* Cards */
 .card {
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
