@@ -271,3 +271,89 @@ img {
 .card-heading {
   padding-bottom: 16px;
 }
+
+/* Pricing.html */
+.section-work {
+  background-color: #ae1332;
+}
+.work-title {
+    margin-bottom: 14px;
+
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.work-text {
+  margin-bottom: 44px;
+  
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    gap: 20px;
+
+    text-align: center;
+    padding: 0;
+}
+
+.work-link {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  width: 335px;
+}
+
+.work-btn {
+  margin-right: 14px;
+  width: 136px;
+  padding: 12px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.04em;
+
+  color: #ffffff;
+  border-radius: 200px;
+}
+
+.red {
+  background: #ae1332;
+}
+
+.green {
+  background: #a1c864;
+}
+
+.yelow {
+  background: #f5ce13;
+}
+.work-btn-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+  width: 145px;
+  text-align: initial;
+
+  color: #000000;
+}
+- mobile: верстка гумова, стає адаптивною на 375px;
+- tablet: 768px;
+- desktop: 1280px
